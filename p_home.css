@@ -216,19 +216,19 @@ body {
 }
 
 .main-intro-image{
-    width: 240px;
+    width: 280px;
     border-radius: 200px;
     outline: 5px solid var(--Uorange);
     padding: 5px;
     position: relative;
     top: 14%;
-    left: 40.8%;
+    left: 39%;
     transform: translate(0%, 0%);
 }
 
 .designation{
     position: relative;
-    top: 4%;
+    top: 6%;
     left: 0%;
     text-align: center;
     font-weight: 550;
@@ -236,7 +236,7 @@ body {
 }
 
 .main-name{
-    font-size: 60px;
+    font-size: 67px;
     font-weight: 900;
     color: var(--Ublack);
     text-align: center;
@@ -310,20 +310,24 @@ body {
 
 .hztl{
     display: flex;
+    gap: 16px;
 }
 
 .whole{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
     justify-content: center;
     position: relative;
-    top: 10%;
-    left: -12.5%;
+    top: 6%;
+    left: -16.7%;
 }
 
 .work-box1{
-    width: 220px;
+    width: 300px;
+    height: 300px;
     background:  radial-gradient(rgba(255, 152, 97, 0.7), rgba(255, 118, 45, 0.7), rgba(245, 92, 10, 0.7)), /* Translucent color overlay */
     url('assets/Images/UdGN InD.jpg');
-    height: 220px;
     position: relative;
     top: 45%;
     left: 45%;
@@ -344,10 +348,10 @@ body {
 }
 
 .work-box2{
-    width: 220px;
+    width: 300px;
+    height: 300px;
     background:  radial-gradient(#dfdfdfea, rgba(245, 245, 245, 0.9)), /* Translucent color overlay */
     url('assets/Images/ux-indonesia-pqzRfBhd9r0-unsplash.jpg');
-    height: 220px;
     border: 3px solid var(--Ublack);
     position: relative;
     top: 45%;
@@ -369,10 +373,10 @@ body {
 }
 
 .work-box3{
-    width: 220px;
+    width: 300px;
+    height: 300px;
     background:  radial-gradient(rgba(158, 158, 158, 0.7), rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.7)), /* Translucent color overlay */
     url('assets/Images/2.png');
-    height: 220px;
     position: relative;
     top: 45%;
     left: 45%;
@@ -393,9 +397,9 @@ body {
 }
 
 .work-box4{
-    width: 220px;
+    width: 300px;
+    height: 300px;
     background-color: var(--Ulgrey);
-    height: 220px;
     position: relative;
     top: 45%;
     left: 45%;
@@ -416,13 +420,13 @@ body {
 }
 
 .work-p{
-    font-size: 30px;
+    font-size: 40px;
     font-weight: bold;
 }
 
 .work-pw{
     color: var(--Uwhite);
-    font-size: 30px;
+    font-size: 44px;
     font-weight: bold;
 }
 
@@ -654,7 +658,7 @@ body {
 
 .cont-links{
     width: 68%;
-    height: 218px;
+    height: 228.5px;
 }
 
 .r1{
