@@ -7,6 +7,10 @@
     --Ulgrey: #D7D7D7;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
     font-family: "Inter", sans-serif;
@@ -141,7 +145,7 @@ body {
     position: fixed;
     top: 300px;
     left: 0;
-    width: 30px;
+    width: 52px;
     border-radius: 0px 30px 30px 0px;
     background-color: var(--Ublack);
     padding: 12px 14px 12px 10px;
@@ -208,13 +212,13 @@ body {
     align-items: center;
     justify-content: center;
     gap: 50px;
-  height: 95vh; /* Adjust as needed */
-  /* Enable positioning */
-  position: relative;
-  background-image: linear-gradient(to bottom, var(--Uwhite), var(--Uorange));
-  margin: 0px;
-  z-index: -200;
-  justify-content: center;
+    height: 95vh; /* Adjust as needed */
+    /* Enable positioning */
+    position: relative;
+    background-image: linear-gradient(to bottom, var(--Uwhite), var(--Uorange));
+    margin: 0px;
+    z-index: -200;
+    justify-content: center;
 }
 
 .land-text{
@@ -497,7 +501,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 7%;
+    margin-top: 9%;
 }
 
 .feat-cont1{
@@ -506,8 +510,8 @@ body {
     position: relative;
     border-radius: 24px;
     margin: 10px;
-    height: 420px;
-    width: 260px;
+    height: 425px;
+    width: 280px;
     padding: 20px;
     cursor: pointer;
 }
@@ -628,7 +632,7 @@ body {
 .cont-quo img{
     margin-left: 156px;
     padding-top: 30px;
-    height: 48px;
+    height: 90px;
 }
 
 .cont-quo p{
@@ -646,6 +650,10 @@ body {
 }
 
 .cont-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 2px solid var(--Ugrey);
     border-bottom: 3px solid var(--Ugrey);
     border-top: 0px;
@@ -656,7 +664,6 @@ body {
     height: 100px;
     border-radius: 200px;
     padding: 3px;
-    margin: 30px 0px 0px 60px;
 }
 
 .cont-img p{
@@ -669,7 +676,7 @@ body {
 
 .cont-links{
     width: 68%;
-    height: 228.5px;
+    height: 100%;
 }
 
 .r1{
@@ -849,7 +856,8 @@ body {
 }
 
 .foot-link{
-    margin-left: 750px;
+    position: relative;
+    right: -45%;
 }
 
 .foot-link a{
