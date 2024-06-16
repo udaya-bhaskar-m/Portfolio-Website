@@ -139,7 +139,7 @@ body {
 
 .sidebar {
     position: fixed;
-    top: 220px;
+    top: 300px;
     left: 0;
     width: 30px;
     border-radius: 0px 30px 30px 0px;
@@ -204,9 +204,11 @@ body {
 }
 
 .main-section{
-  height: 100vh; /* Adjust as needed */
-  width: 100%;
-  margin-right: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+  height: 95vh; /* Adjust as needed */
   /* Enable positioning */
   position: relative;
   background-image: linear-gradient(to bottom, var(--Uwhite), var(--Uorange));
@@ -215,52 +217,40 @@ body {
   justify-content: center;
 }
 
+.land-text{
+    display: flex;
+    flex-direction: column;
+    align-items:flex-start;
+    gap: 20px;
+}
+
 .main-intro-image{
-    width: 280px;
+    width:  320px;
+    height: 320px;
     border-radius: 200px;
     outline: 5px solid var(--Uorange);
     padding: 5px;
-    position: relative;
-    top: 14%;
-    left: 39%;
-    transform: translate(0%, 0%);
 }
 
 .designation{
-    position: relative;
-    top: 6%;
-    left: 0%;
-    text-align: center;
-    font-weight: 550;
+    margin: 0px;
+    font-size: 17px;
+    font-weight: 600;
     color: var(--Uwhite);
 }
 
 .main-name{
+    margin: 0px;
     font-size: 67px;
     font-weight: 900;
     color: var(--Ublack);
-    text-align: center;
-    position: relative;
-    top: 10%;
-    left: 0%;
     transform: translate(0%, 0%);
 }
 
-.ttm{
-    height: 24px;
-    padding-top: 8px;
-}
 
-.wb11{
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-}
 
 .wb11 h1{
-    padding: 20px;
-    padding-right: 5px;
-    padding-bottom: 4px;
+    padding: 20px 0px 20px 0px;
 }
 
 .wb111{
@@ -279,11 +269,27 @@ body {
 }
 
 .sec-title{
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
     color: var(--Uwhite);
     margin: 0px;
-    margin-bottom: 20px;
-    margin-top: 8px;
-    font-size: 24px;
+    font-size: 20px;
+    font-family: "Cutive Mono", monospace;
+}
+
+.sec-title span{
+    display: inline-block;
+    padding-right: 20px; /* Ensure smooth looping */
+}
+
+@keyframes marquee{
+    0% {
+        transform: translateX(0%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
 }
 
 .sec-title2{
@@ -293,12 +299,17 @@ body {
 
 .work-bar{
     background-color: var(--Ublack);
-    position: relative;
+    display: flex;
+    align-items: center;
     border-radius: 20px;
     width: 100%;
-    padding-left: 42px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 100px;
+    height: 80px;
     box-sizing: border-box;
     margin-top: -20px;
+    z-index: 200;
 }
 
 .sec2{
@@ -327,7 +338,7 @@ body {
     width: 300px;
     height: 300px;
     background:  radial-gradient(rgba(255, 152, 97, 0.7), rgba(255, 118, 45, 0.7), rgba(245, 92, 10, 0.7)), /* Translucent color overlay */
-    url('assets/Images/UdGN InD.jpg');
+    url('assets/Images/UdGN InD.jpg') center center/cover no-repeat;
     position: relative;
     top: 45%;
     left: 45%;
@@ -351,7 +362,7 @@ body {
     width: 300px;
     height: 300px;
     background:  radial-gradient(#dfdfdfea, rgba(245, 245, 245, 0.9)), /* Translucent color overlay */
-    url('assets/Images/ux-indonesia-pqzRfBhd9r0-unsplash.jpg');
+    url('assets/Images/ux-indonesia-pqzRfBhd9r0-unsplash.jpg') center center/cover no-repeat;
     border: 3px solid var(--Ublack);
     position: relative;
     top: 45%;
@@ -376,7 +387,7 @@ body {
     width: 300px;
     height: 300px;
     background:  radial-gradient(rgba(158, 158, 158, 0.7), rgba(18, 18, 18, 0.5), rgba(18, 18, 18, 0.7)), /* Translucent color overlay */
-    url('assets/Images/2.png');
+    url('assets/Images/2.png') center center/cover no-repeat;
     position: relative;
     top: 45%;
     left: 45%;
@@ -486,7 +497,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 5%;
+    margin-top: 7%;
 }
 
 .feat-cont1{
@@ -495,8 +506,8 @@ body {
     position: relative;
     border-radius: 24px;
     margin: 10px;
-    height: 400px;
-    width: 240px;
+    height: 420px;
+    width: 260px;
     padding: 20px;
     cursor: pointer;
 }
@@ -838,7 +849,7 @@ body {
 }
 
 .foot-link{
-    margin-left: 600px;
+    margin-left: 750px;
 }
 
 .foot-link a{
