@@ -673,7 +673,6 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: var(--Ublack);
     border-radius: 20px;
     width: 100%;
     padding-left: 42px;
@@ -682,11 +681,13 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 64px;
+    z-index: -325;
 }
 
 .wb22{
     text-decoration: none;
-    color: var(--Uwhite);
+    color: #ff7e39;
+    font-weight: 900;
     font-family: "Cutive Mono", monospace;
     font-size: 18px;
     align-items: center;
@@ -700,9 +701,9 @@ body {
 }
 
 .cont-quo{
-    border: solid 2px var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
-    border-top: 0px;
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
+    border-top: 1.5px solid var(--Ugrey);
     border-left: 0px;
     width: 28%;
 }
@@ -732,9 +733,9 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
-    border-top: 0px;
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
+    border-top: 1.5px solid var(--Ugrey);
     width: 30%;
 }
 
@@ -763,9 +764,9 @@ body {
 }
 
 .c11{
-    border: 2px solid var(--Ugrey);
-    border-top: 0px;
-    border-bottom: 3px solid var(--Ugrey);
+    border: 0.1px solid var(--Ugrey);
+    border-top: 1.5px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
     width: 50vh;
     height: 100%;
     display: flex;
@@ -785,9 +786,9 @@ body {
 }
 
 .c12{
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
-    border-top: 0px;
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
+    border-top: 1.5px solid var(--Ugrey);
     width: 50vh;
     height: 100%;
     display: flex;
@@ -807,9 +808,9 @@ body {
 }
 
 .c13{
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
-    border-top: 0px;
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
+    border-top: 1.5px solid var(--Ugrey);
     border-right: 0px;
     width: 50vh;
     height: 100%;
@@ -835,8 +836,8 @@ body {
 }
 
 .c21{
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
     width: 50vh;
     height: 100%;
     display: flex;
@@ -856,8 +857,8 @@ body {
 }
 
 .c22{
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
     width: 50vh;
     height: 100%;
     display: flex;
@@ -877,8 +878,8 @@ body {
 }
 
 .c23{
-    border: 2px solid var(--Ugrey);
-    border-bottom: 3px solid var(--Ugrey);
+    border: 0.1px solid var(--Ugrey);
+    border-bottom: 1.5px solid var(--Ugrey);
     border-right: 0px;
     width: 50vh;
     height: 100%;
