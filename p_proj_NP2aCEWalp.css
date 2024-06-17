@@ -1,0 +1,289 @@
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramond.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramond.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramond-Bold.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramond-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramond-Italic.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramond-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramondLight.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramondLight.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramondLight-Italic.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramondLight-Italic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Apple Garamond';
+    src: url('./assets/FontFiles/apple_garamond/AppleGaramond-BoldItalic.woff2') format('woff2'),
+         url('./assets/FontFiles/apple_garamond/AppleGaramond-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+:root{
+    --Uorange: #F55C0A;
+    --Ublack: #121212;
+    --Ugrey: #808080;
+    --Uwhite: #f5f5f5;
+    --Uhorange: #ff9861;
+    --Ulgrey: #D7D7D7;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    margin-right: 12px;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    background-color: var(--Ublack);
+    padding: 0.35em;
+    border-radius: 0px 0px 20px 20px;
+    z-index: 100;
+    box-sizing: border-box;
+}
+
+.logo-link {
+    text-decoration: none;
+    color: inherit;
+    display: flex;
+    align-items: center;
+    padding: 10px 10px 10px 40px;
+    margin-left: 20px;
+}
+
+.logo {
+    height: 30px;
+}
+
+.logo-txt{
+    margin: 0px;
+    text-decoration: none;
+    color: inherit;
+    font-family: "Righteous", sans-serif;
+    color: var(--Uorange);
+    font-weight: 500;
+    padding: 10px;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    margin: 0;
+    padding-right: 20px;
+    padding-left: 0px;
+    align-items: center;
+}
+
+.nav-links li {
+    margin-left: 20px;
+    color: var(--Uwhite);
+}
+
+.ont{
+    width: 20px;
+    margin-left: 4px;
+}
+
+.ont:hover{
+    opacity: 50%;
+}
+
+.nav-links li button{
+    text-decoration: none;
+    padding: 0em 0.8em;
+    font-size: 16px;
+}
+
+.seperator{
+    color: var(--Ugrey) !important;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    transition: color 100ms;
+    display: flex;
+}
+
+.nav-links li a:hover {
+    color: var(--Ugrey);
+}
+
+.nav-links li button{
+    text-decoration: none;
+    padding: 0em 0.8em;
+    font-size: 16px;
+}
+
+.sec-btn{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--Uorange);
+    border-radius: 25px;
+    border: 0px solid var(--Uorange);
+    box-shadow: inset 0 0 0 2px var(--Uorange);
+    color: var(--Uwhite);
+    transition: box-shadow 100ms, color 100ms, border-color 100ms;
+}
+
+.sec-btn:hover{
+    background-color: rgba(0, 0, 0, 0);
+    border-color: var(--Uhorange);
+    box-shadow: inset 0 0 0 2px var(--Uhorange);
+    border-radius: 25px;
+    color: #ffc7a9;
+}
+
+.pri-btn{
+    background-color: var(--Uorange);
+    color: var(--Uwhite);
+    border-radius: 25px;
+    border: 0px solid var(--Uorange);
+    transition: background-color 100ms, box-shadow 100ms;
+    font-weight: 500;
+}
+
+.pri-btn:hover{
+    background-color: var(--Uhorange);
+    border-radius: 25px;
+}
+
+.container {
+    display: flex;
+}
+
+.sidebar {
+    position: fixed;
+    width: 270px;
+    padding: 20px;
+    margin-top: 120px;
+}
+
+.sidebar h2 {
+    font-size: 24px;
+    margin-bottom: 24px;
+}
+
+.matters{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.matters li a{
+    border: 2px solid var(--Uorange);
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    color: var(--Ublack);
+    border-radius: 5px;
+}
+
+.matters li a:hover{
+    background-color: var(--Uhorange);
+    color: var(--Uwhite);
+}
+
+.matters li a:active{
+    background-color: var(--Uorange);
+    color: var(--Uwhite);
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.sidebar ul li a {
+    display: inline-block;
+    padding: 10px;
+    color: var(--Ublack);
+    text-decoration: none;
+    border: 1px solid #333;
+    border-radius: 5px;
+}
+
+.sidebar ul li a:hover{
+    background-color: var(--Ugrey);
+    color: var(--Uwhite);
+}
+
+.sidebar ul li a.active{
+    background-color: var(--Ublack);
+    color: var(--Ulgrey);
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+    margin-top: 120px;
+    margin-left: 280px;
+}
+
+.main-content h1{
+    color: var(--Uorange);
+    margin-bottom: 30px;
+}
+
+.main-content section {
+    margin-bottom: 20px;
+}
+
+.main-content section h2 {
+    font-size: 28px;
+    background: linear-gradient(to right, #00c6ff, #0072ff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-bottom: 10px;
+}
+
+.main-content section p {
+    font-size: 18px;
+    line-height: 1.6;
+}
