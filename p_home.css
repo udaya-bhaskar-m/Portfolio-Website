@@ -277,7 +277,7 @@ body {
 .sec-title{
     display: inline-block;
     white-space: nowrap;
-    animation: marquee 20s linear infinite;
+    animation: marquee 30s linear infinite;
     color: var(--Uwhite);
     margin: 0px;
     font-size: 20px;
@@ -563,15 +563,6 @@ body {
     margin-left: 5px;
 }
 
-.wb22{
-    text-decoration: none;
-    color: var(--Uwhite);
-    font-family: "Cutive Mono", monospace;
-    font-size: 18px;
-    align-items: center;
-    justify-content: center;
-}
-
 .feat-cont{
     display: flex;
     justify-content: center;
@@ -592,7 +583,7 @@ body {
 }
 
 .feat-desc{
-    width: 100%;
+    width: 96%;
     height: 90px;
 }
 
@@ -691,6 +682,15 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     padding-left: 64px;
+}
+
+.wb22{
+    text-decoration: none;
+    color: var(--Uwhite);
+    font-family: "Cutive Mono", monospace;
+    font-size: 18px;
+    align-items: center;
+    justify-content: center;
 }
 
 .cont-top{

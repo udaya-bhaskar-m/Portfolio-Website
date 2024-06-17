@@ -7,8 +7,13 @@
     --Ulgrey: #D7D7D7;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: flex;
+    justify-content: center;
     font-family: "Inter", sans-serif;
     margin: 0px;
     padding: 0px;
@@ -18,7 +23,6 @@ body {
 
 .navbar {
     display: flex;
-    margin-right: 12px;
     justify-content: space-between;
     align-items: center;
     width: 100%;
@@ -131,15 +135,18 @@ body {
 }
 
 .main-title{
+    font-family: "Cutive Mono", monospace;
     color: var(--Uorange);
     font-size: 42px;
     font-weight: 700;
     position: relative;
-    left: 45%;
+    left: 70%;
     margin-top: 100px;
 }
 
 .chat-cont{
+    position: relative;
+    left: 30%;
     margin-top: 180px;
 }
 
@@ -150,9 +157,9 @@ body {
     width: 84px;
     border-radius: 30px 0px 30px 30px;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    padding-right: 20px;
+    padding-left: 5px;
 }
 
 .q1 p{
@@ -168,7 +175,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 10px;
 }
 
 .a1 p{
@@ -184,7 +191,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 7px;
 }
 
 .q2 p{
@@ -217,7 +224,7 @@ body {
     display: flex;
     justify-content: end;
     align-items: center;
-    padding-right: 20px;
+    padding-right: 12px;
 }
 
 .q3 p{
@@ -244,21 +251,9 @@ body {
 .sec4{
     height: 40vh;
     position: relative;
-    margin-top: 1000px;
-    width: 98.66%;
-    margin-left: -50.29%;
-}
-
-.work-bar3{
-    background-color: var(--Ublack);
-    position: relative;
-    border-radius: 20px;
-    width: 100%;
-    padding-left: 42px;
-    box-sizing: border-box;
-    margin-top: -50px;
-    padding-bottom: 20px;
-    padding-left: 64px;
+    bottom: -114%;
+    width: 94.26%;
+    left: -17.82%;
 }
 
 .wb13{
@@ -268,23 +263,26 @@ body {
     text-decoration: none;
 }
 
-.sec-title3{
-    color: var(--Uwhite);
-    margin: 0px;
-    margin-top: 8px;
-    font-size: 24px;
-}
-
-.ttm21{
-    margin-top: 10px;
-    margin-left: 5px;
+.work-bar3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--Ublack);
+    border-radius: 20px;
+    width: 100%;
+    padding-left: 42px;
+    box-sizing: border-box;
+    margin-top: -50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 64px;
 }
 
 .wb22{
     text-decoration: none;
-    color: var(--Ugrey);
-    font-size: 12px;
-    color: var(--Ugrey);
+    color: var(--Uwhite);
+    font-family: "Cutive Mono", monospace;
+    font-size: 18px;
     align-items: center;
     justify-content: center;
 }
@@ -306,7 +304,7 @@ body {
 .cont-quo img{
     margin-left: 156px;
     padding-top: 30px;
-    height: 48px;
+    height: 90px;
 }
 
 .cont-quo p{
@@ -324,32 +322,33 @@ body {
 }
 
 .cont-img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     border: 2px solid var(--Ugrey);
     border-bottom: 3px solid var(--Ugrey);
     border-top: 0px;
     width: 30%;
-    align-items: center;
-    justify-content: center;
 }
 
 .cont-img img{
     height: 100px;
     border-radius: 200px;
-    outline: 3px solid var(--Uorange);
     padding: 3px;
-    margin: 30px 0px 0px 60px;
 }
 
 .cont-img p{
     text-align: center;
-    margin: 10px 30px 10px 30px;
+    margin: 10px 10px 10px 10px;
     font-weight: 600;
+    font-size: 14px;
     columns: var(--Ublack);
 }
 
 .cont-links{
     width: 68%;
-    height: 218px;
+    height: 100%;
 }
 
 .r1{
@@ -500,6 +499,15 @@ body {
     width: 100%;
 }
 
+.bot-logo{
+    display: flex;
+    text-decoration: none;
+}
+
+.logo-txt2{
+    text-decoration: none;
+}
+
 .cont-bot img{
     margin-left: 64px;
     height: 30px;
@@ -515,18 +523,13 @@ body {
 
 .sick img{
     height: 24px;
-    margin-left: 5px;
+    margin-left: 10px;
+    margin-bottom: 6px;
 }
 
 .foot-link{
-    margin-left: 600px;
-}
-
-.foot-link a img{
-    width: 16px;
-    margin: 0px;
-    margin-left: 4px;
-    margin-bottom: -8px;
+    position: relative;
+    right: -45%;
 }
 
 .foot-link a{
@@ -535,6 +538,13 @@ body {
     color: var(--Ugrey);
     margin-left: 40px;
     font-size: 15px;
+}
+
+.foot-link a img{
+    width: 16px;
+    margin: 0px;
+    margin-left: 4px;
+    margin-bottom: -8px;
 }
 
 .hardes{
