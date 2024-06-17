@@ -433,7 +433,7 @@ body {
 }
 
 .work-box1:hover{
-    box-shadow: -7px -7px 0px var(--Uorange);
+    box-shadow: -4px -4px 0px var(--Uwhite),-12px -12px 0px var(--Uorange);
 }
 
 .work-box2{
@@ -458,7 +458,7 @@ body {
 }
 
 .work-box2:hover{
-    box-shadow: 7px -7px 0px var(--Ugrey);
+    box-shadow: 4px -4px 0px var(--Uwhite),12px -12px 0px var(--Ugrey);
 }
 
 .work-box3{
@@ -482,7 +482,7 @@ body {
 }
 
 .work-box3:hover{
-    box-shadow: -7px 7px 0px var(--Uhorange);
+    box-shadow: -4px 4px 0px var(--Uwhite),-12px 12px 0px var(--Uhorange);
 }
 
 .work-box4{
