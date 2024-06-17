@@ -397,11 +397,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c11 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 28px;
     padding-left: 5px;
 }
@@ -419,11 +420,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c12 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 28px;
     padding-left: 7px;
 }
@@ -442,11 +444,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c13 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 28px;
     padding-left: 7px;
 }
@@ -468,11 +471,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c21 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 26px;
     padding-left: 5px;
 }
@@ -489,11 +493,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c22 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 28px;
     padding-left: 5px;
 }
@@ -511,11 +516,12 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    color: var(--Ugrey);
 }
 
 .c23 a{
     text-decoration: none;
-    color: var(--Ugrey);
+    color: var(--Ublack);
     font-size: 28px;
     padding-left: 5px;
 }
