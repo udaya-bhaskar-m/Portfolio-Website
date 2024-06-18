@@ -274,7 +274,7 @@ body {
 }
 
 .main-content section {
-    border: 2px solid var(--Ugrey);
+    border: 2px solid var(--Ublack);
     border-radius: 20px;
 }
 
@@ -285,7 +285,7 @@ body {
     border-radius: 18px 18px 0px 0px;
     padding: 20px;
     border-bottom: 2px solid var(--Ublack);
-    background: linear-gradient(to right, var(--Uorange), var(--Uwhite));
+    background: linear-gradient(45deg, var(--Uorange) 0%, white 100%);
     margin-bottom: 10px;
 }
 
