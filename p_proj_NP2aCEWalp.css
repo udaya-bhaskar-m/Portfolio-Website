@@ -190,17 +190,17 @@ body {
 
 .container {
     display: flex;
+    padding-top: 120px;
 }
 
 .sidebar {
     position: fixed;
-    width: 270px;
+    width: 360px;
     padding: 20px;
-    margin-top: 120px;
 }
 
 .sidebar h2 {
-    font-size: 24px;
+    font-size: 32px;
     margin-bottom: 24px;
 }
 
@@ -226,7 +226,7 @@ body {
     color: var(--Uwhite);
 }
 
-.matters li a:active{
+.matters li a.active{
     background-color: var(--Uorange);
     color: var(--Uwhite);
 }
@@ -259,31 +259,38 @@ body {
 }
 
 .main-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     flex: 1;
     padding: 20px;
-    margin-top: 120px;
-    margin-left: 280px;
+    margin-left: 390px;
 }
 
 .main-content h1{
     color: var(--Uorange);
     margin-bottom: 30px;
+    font-size: 42px;
 }
 
 .main-content section {
-    margin-bottom: 20px;
+    border: 2px solid var(--Ugrey);
+    border-radius: 20px;
 }
 
 .main-content section h2 {
-    font-size: 28px;
-    background: linear-gradient(to right, #00c6ff, #0072ff);
-    -webkit-background-clip: text;
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
+    font-size: 32px;
+    font-family: "Apple garamond";
+    font-weight: normal;
+    border-radius: 18px 18px 0px 0px;
+    padding: 20px;
+    border-bottom: 2px solid var(--Ublack);
+    background: linear-gradient(to right, var(--Uorange), var(--Uwhite));
     margin-bottom: 10px;
 }
 
 .main-content section p {
+    padding: 20px;
     font-size: 18px;
     line-height: 1.6;
 }
