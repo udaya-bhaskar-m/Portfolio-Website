@@ -266,6 +266,7 @@ body {
 
 .post-img img{
     border-radius: 20px;
+    pointer-events: none;
 }
 
 .work-col{

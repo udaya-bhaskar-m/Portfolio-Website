@@ -229,6 +229,7 @@ body {
 }
 
 .main-intro-image{
+    pointer-events: none;
     width:  320px;
     height: 320px;
     border-radius: 200px;
