@@ -465,11 +465,15 @@ body {
 }
 
 .work-p{
+    padding: 5vh 2vh;
     font-size: 2.4rem;
     font-weight: bold;
+    text-decoration: none;
+    color: var(--Ublack);
 }
 
 .work-pw{
+    padding: 10vh 5vh;
     text-decoration: none;
     color: var(--Uwhite);
     font-size: 2.4rem;
@@ -681,6 +685,7 @@ body {
 }
 
 .cont-img{
+    text-decoration: none;
     display: flex;
     flex-direction: column;
     align-items: center;
