@@ -533,6 +533,10 @@ body {
         margin-left: 10px;
     }
 
+    .main-content{
+        height: 60vh;
+    }
+
     .main-content h1{
         font-size: 5rem;
     }
