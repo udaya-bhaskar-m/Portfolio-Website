@@ -54,12 +54,30 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 const menuIcon = document.querySelector(".menu-btn")
-const closeIcon = document.querySelector(".close-icon")
+const closeIcon = document.querySelector(".closicon")
 const mobileNav = document.querySelector(".hidden-nav")
+const overlay = document.querySelector(".overlay");
 
 menuIcon.addEventListener("click", () => {
     mobileNav.classList.add("active");
+    overlay.classList.add("active");
 });
 closeIcon.addEventListener("click", () => {
     mobileNav.classList.remove("active");
+    overlay.classList.remove("active");
+});
+overlay.addEventListener("click", () => {
+    mobileNav.classList.remove("active");
+    overlay.classList.remove("active");
+});
+
+const hamIcon = document.querySelector(".menu-icon")
+const xIcon = document.querySelector(".close-icon")
+const mobNav = document.querySelector(".mobile-menu")
+
+hamIcon.addEventListener("click", () => {
+    mobNav.classList.add("active");
+});
+xIcon.addEventListener("click", () => {
+    mobNav.classList.remove("active");
 });
