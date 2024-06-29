@@ -911,7 +911,8 @@ body {
     }
 
     .sec4{
-        height: 64vh;justify-content: end;
+        height: 64vh;
+        justify-content: end;
     }
 
     .cont-top{
@@ -950,8 +951,8 @@ body {
 
     .cont-bot{
         height: auto;
-        padding-top: 16vh;
-        padding-bottom: 10vh;
+        padding-top: 14vh;
+        padding-bottom: 14vh;
     }
 
     .foot-link{
