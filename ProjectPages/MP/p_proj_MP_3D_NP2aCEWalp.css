@@ -215,22 +215,22 @@ body {
 }
 
 .matters li a{
-    border: 2px solid var(--Uorange);
+    border: 2px solid var(--Uorange) !important;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
-    color: var(--Ublack);
+    color: var(--Ublack) !important;
     border-radius: 5px;
 }
 
 .matters li a:hover{
-    background-color: var(--Uhorange);
-    color: var(--Uwhite);
+    background-color: var(--Uhorange) !important;
+    color: var(--Uwhite) !important;
 }
 
 .matters li a.active{
-    background-color: var(--Uorange);
-    color: var(--Uwhite);
+    background-color: var(--Uorange) !important;
+    color: var(--Uwhite) !important;
 }
 
 .sidebar ul {
@@ -269,7 +269,7 @@ body {
     padding: 30px;
     padding-bottom: 0;
     margin-left: 360px;
-    margin-top: -60px;
+    margin-top: 0px;
     border-radius: 20px;
 }
 
@@ -346,7 +346,8 @@ body {
 }
 
 .img002{
-    width: 200px;
+    max-width: 200px;
+    width: 100%;
     border: 1px solid var(--Ugrey);
     border-radius: 10px;
 }
@@ -581,9 +582,11 @@ body {
     margin-top: -10px;
     background-color: var(--Uwhite);
     border-radius: 10px;
-    padding: 5px;
+    padding: 2px;
+    width: -moz-fit-content;
     width: fit-content;
     margin-bottom: 10px;
+    display: none;
 }
 
 .overlay {
@@ -632,6 +635,10 @@ body {
         padding-right: 20px;
     }
 
+    .mobile-nav .logo-link{
+        margin-left: -18px;
+    }
+
     .close-icon{
         width: 48px;
         position: absolute;
@@ -661,6 +668,10 @@ body {
         height: 50vh;
         flex-direction: column;
         justify-content: space-evenly;
+    }
+
+    .main-content{
+        background-color: white;
     }
 
     .gall-cont{
@@ -700,6 +711,10 @@ body {
 
     .img002{
         min-width: 100%;
+    }
+
+    .CnC{
+        font-size: 16px;
     }
 
     .cont-top{
@@ -768,7 +783,7 @@ body {
         padding: 20px;
         border-radius: 20px 20px 20px 20px;
         transition: all 200ms ease;
-        margin-top: -20px;
+        margin-top: -18px;
         z-index: 18;
     }
 
@@ -817,6 +832,10 @@ body {
 
     .main-content{
         margin: 0px 10px;
+    }
+
+    .menu-btn{
+        display: block;
     }
 
     .sec4{
