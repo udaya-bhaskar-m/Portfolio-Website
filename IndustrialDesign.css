@@ -23,6 +23,11 @@ a{
     text-decoration: none;
 }
 
+img{
+    margin: 0px;
+    padding: 0px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -357,6 +362,7 @@ a{
     border-radius: 15px;
     border: 2px solid black;
     overflow: hidden;
+    display: flex;
 }
 
 .wbimg3 img{
@@ -392,7 +398,7 @@ a{
     justify-content: center;
 }
 
-.feat-cont-btn{
+button.feat-cont-btn{
     border: none;
     background-color: var(--Uorange);
     font-weight: 600;
@@ -400,8 +406,6 @@ a{
     border-radius: 30px;
     display: flex;
     align-items: center;
-    justify-content: center;
-    gap: 0;
     cursor: pointer;
     transition: background-color 100ms;
 }
@@ -410,11 +414,8 @@ a{
     background-color: var(--Uhorange);
 }
 
-.feat-cont-btn img{
-    margin: 0px;
-    margin-left: 12px;
-    margin-right: -6px;
-    height: 20px;
+.btn-container img{
+    margin: 0px !important;
 }
 
 .work-box4{
